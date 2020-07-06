@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.results-container{
+  display:flex;
+  flex-direction: row;
+}
+
+.result-for-date-container{
+  border: solid black 2px;
+  margin: 4px;
+}
+
+.graph-column-container{
+  display:flex;
+  flex-direction: row;
+}
+
+.graph-unit{
+  width:40px;
+  background-color: black;
+}
+
+.graph-student-name{
+  width:100px;
+}
+
+.graph-container{
+  display:flex;
+  flex-direction: column;
+}
+
+.analysis-results-container{
+  display:flex;
+  flex-direction: row;
+}
